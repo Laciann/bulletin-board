@@ -5,7 +5,7 @@ import BulletinAdmin from './views/admin/BulletinAdmin.svelte'
 const routes = [
     {name: '/', component: Home},
     {name: '/bulletin', component: BulletinView},
-    {name: '/admin/manage-bulletin', BulletinAdmin}
+    {name: '/admin/manage-bulletin', component: BulletinAdmin}
 ]
 
 export {routes}

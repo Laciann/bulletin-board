@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx eslint src && rollup -c",
     "dev": "npx eslint src && rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public -s --no-clear"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.5.4",
