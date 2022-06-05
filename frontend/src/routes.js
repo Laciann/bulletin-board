@@ -4,8 +4,8 @@ import BulletinAdmin from './views/admin/BulletinAdmin.svelte'
 
 const routes = [
     {name: '/', component: Home},
-    {name: '/bulletin', component: LunchMenuView},
-    {name: '/admin/manage-bulletin', LunchMenuAdmin}
+    {name: '/bulletin', component: BulletinView},
+    {name: '/admin/manage-bulletin', BulletinAdmin}
 ]
 
 export {routes}
